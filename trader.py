@@ -23,7 +23,7 @@ class TickTrader:
     
     def strategy(self, curr_date):
         curr_price = self.fetch_curr_price(curr_date)
-        print(f"checking {curr_date}: {curr_price}")
+        #print(f"checking {curr_date}: {curr_price}")
         #holding shares
         if self.shares > 0: 
             if curr_price > self.highest_observed_price:
